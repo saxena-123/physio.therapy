@@ -284,7 +284,7 @@ body {
 
 /* About Section */
 .about {
-    padding: 100px 0;
+    padding: 0px 0;
     background: white;
 }
 
@@ -438,7 +438,7 @@ body {
 
 /* Clinic Services */
 .clinic-services {
-    background: white;
+    background: #80b1cf;
     border-radius: 24px;
     padding: 60px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
@@ -473,7 +473,7 @@ body {
 
 .clinic-card {
     text-align: center;
-    padding: 30px 20px;
+    padding: 10px 10px;
     border-radius: 16px;
     transition: transform 0.3s ease;
 }
@@ -485,23 +485,34 @@ body {
 .clinic-card.blue {
     /*background: linear-gradient(135deg, #dbeafe, #bfdbfe);*/
         background: linear-gradient(135deg, #fed7aa, #fdba74);
+        
+        
 
 }
 
 .clinic-card.teal {
     /*background: linear-gradient(135deg, #ccfbf1, #99f6e4);*/
         background: linear-gradient(135deg, #fed7aa, #fdba74);
+        /*height:150px;
+        width:150px;
+        position:relative;
+        top:12px;
+        left:200px;*/
 
 }
 
 .clinic-card.green {
     /*background: linear-gradient(135deg, #dcfce7, #bbf7d0);*/
         background: linear-gradient(135deg, #fed7aa, #fdba74);
+       /* height:150px;
+        width:150px;*/
 
 }
 
 .clinic-card.orange {
     background: linear-gradient(135deg, #fed7aa, #fdba74);
+    /*height:150px;
+    width:150px;*/
 }
 
 .clinic-icon {
@@ -524,7 +535,7 @@ body {
 
 /* Contact Section */
 .contact {
-    padding: 100px 0;
+    padding: 170px 0;
     background: white;
 }
 
@@ -621,6 +632,26 @@ body {
     transform: translateY(-3px);
     box-shadow: 0 12px 35px rgba(16, 185, 129, 0.4);
 }
+#a{
+    position:absolute;
+    top: 6100px;
+    left:200px;
+    height:20px;
+    width:150px;
+}
+#b{
+    position:absolute;
+    top:6150px;
+    left:350px;
+    border-radius: 10px;
+}
+#c{
+    position:absolute;
+    top:6150px;
+    left:400px;
+    border-radius: 10px;
+}
+
 
 .booking-note {
     text-align: center;
